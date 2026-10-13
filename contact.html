@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#081225">
+  <meta name="description" content="Elevora Consulting helps ambitious teams turn complex challenges into clear strategy and measurable progress.">
+  <title>Contact | Elevora Consulting</title>
+  <script src="theme-init.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Shared site header: logo, page navigation, theme control and mobile menu -->
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Site header: brand and responsive navigation -->
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Elevora Consulting home">
+        <img src="assets/logo/elevora-logo-wide.jpg" alt="" class="brand-mark">
+        <span class="brand-name">Elevora<span>Consulting</span></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" aria-label="Open navigation">
+        ☰
+      </button>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Main navigation">
+        <a href="index.html" data-page="index.html">Home</a>
+        <a href="about.html" data-page="about.html">About</a>
+        <a href="services.html" data-page="services.html">Services</a>
+        <a href="case-studies.html" data-page="case-studies.html">Our Work</a>
+        <a href="pricing.html" data-page="pricing.html">Pricing</a>
+        <a href="insights.html" data-page="insights.html">Insights</a>
+        <a href="contact.html" data-page="contact.html">Contact</a>
+      </nav>
+      <div class="nav-actions">
+
+        <button class="theme-toggle" type="button" aria-label="Switch to light mode" title="Switch theme">
+          <span class="theme-icon">☼</span>
+        </button>
+
+        <a class="button button-small nav-cta" href="contact.html">
+          Let’s talk 
+          <span aria-hidden="true">
+            ↗
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main content: page-specific sections -->
+  <main id="main">
+
+  <!-- Section 1: Every good outcome starts with a conversation. -->
+  <section class="page-hero contact-hero">
+    <div class="container page-hero-grid">
+      <div>
+        <p class="eyebrow">
+          Contact Elevora
+        </p>
+        <h1>Every good outcome starts with 
+          <span class="gradient-text">a conversation.</span>
+        </h1>
+        <p class="hero-lead">
+          Tell us what you are working through.
+           We’ll help you frame the challenge and identify a useful next step.
+          </p>
+          <div class="contact-points">
+            <p>
+              <span>
+                ✓
+              </span>
+               No-pressure first conversation
+              </p>
+              <p>
+                <span>
+                  ✓
+                </span>
+                 A focus on your goals and context
+                </p>
+                <p>
+                  <span>
+                    ✓
+                  </span>
+                   Clear next steps, not a sales script
+                  </p>
+                </div>
+              </div>
+              <div class="contact-card">
+                <p class="eyebrow">LET’S CONNECT</p>
+                <h2>What would you like to move forward?</h2>
+                <p>Use the form to outline your challenge and the kind of support you’re looking for.</p>
+                <a href="#contact-form" class="button">Start your message <span>↓</span></a>
+                <div class="contact-decoration">E.</div>
+             </div>
+          </div>
+  </section>
+
+  <!-- Section 2: Let’s make the complex feel clearer. -->
+  <section class="section-space" id="contact-form">
+    <div class="container contact-layout">
+      <div>
+        <p class="eyebrow">Your next step</p>
+        <h2>Let’s make the complex <span class="gradient-text">feel clearer.</span></h2>
+        <p class="section-intro">
+          Share a few details below.
+           The demo form will validate your entries and show a confirmation on this device.
+          </p>
+          <div class="contact-note">
+            <span>✦</span>
+            <p>
+              <strong>Privacy note</strong>
+              <br>
+              This front-end demo does not send your information to a server.
+               Connect a secure form service or backend before publishing it for real client enquiries.
+              </p>
+            </div>
+          </div>
+
+    <form class="contact-form" id="contactForm">
+      <div class="form-row">
+        <label for="fullName">Full name <span>*</span></label>
+        <input id="fullName" name="fullName" autocomplete="name" placeholder="Your name" required>
+      </div>
+
+      <div class="form-row">
+        <label for="email">Work email <span>*</span></label>
+        <input id="email" name="email" type="email" autocomplete="email" placeholder="you@company.com" required>
+      </div>
+      
+      <div class="form-row">
+        <label for="organization">Organization</label>
+        <input id="organization" name="organization" autocomplete="organization" placeholder="Company or team">
+      </div>
+
+      <div class="form-row">
+        <label for="service">What would you like help with?</label>
+        <select id="service" name="service">
+        <option value="">Choose an area</option>
+        <option>Strategy & growth</option>
+        <option>Transformation & delivery</option>
+        <option>Digital & AI advisory</option>
+        <option>Leadership & culture</option>
+        <option>Performance improvement</option>
+        <option>Research & insights</option>
+        <option>Not sure yet</option>
+      </select>
+    </div>
+
+      <div class="form-row">
+        <label for="message">Tell us a little about the challenge <span>*</span></label>
+        <textarea id="message" name="message" rows="5" placeholder="What are you trying to achieve?" required>
+        </textarea>
+      </div>
+
+      <button class="button form-submit" type="submit">
+        Send enquiry 
+        <span>↗</span>
+      </button>
+      <p class="form-message" id="formMsg" role="status" aria-live="polite"></p>
+    </form>
+  </div>
+
+    <!-- Animated social links: hover or keyboard-focus each app to reveal its details. -->
+
+  <!-- Section 3: Let’s connect socially. -->
+  <section class="social-connect" aria-labelledby="social-heading">
+      <div class="social-heading-wrap">
+        <p class="eyebrow">
+          BEYOND THE INBOX
+        </p>
+        <h2 id="social-heading">
+          Let’s connect 
+          <span class="gradient-text">
+            socially.
+          </span>
+        </h2>
+
+        <p>
+          Follow our updates, ideas, and conversations across your preferred platform.
+        </p>
+      </div>
+      
+      <div class="social-grid" aria-label="Social media platforms">
+        <a class="social-link social-linkedin" href="https://www.linkedin.com/in/shayeq-salihe-a35a74281?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" 
+        rel="noopener noreferrer" aria-label="LinkedIn — professional insights" data-name="LinkedIn" data-detail="Professional insights & company updates">
+          <span class="social-tooltip">
+            <strong>LinkedIn</strong>
+            <small>Professional insights & company updates</small>
+          </span>
+          <span class="social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M5.2 3.5a2.2 2.2 0 1 1 0 4.4 2.2 2.2 0 0 1 0-4.4ZM3.3 9.5h3.8v11H3.3v-11Zm6.1 0H13v1.5h.1a4.1 4.1 0 0 1 3.7-2c4 0 4.7 2.6 4.7 6v5.5h-3.8v-4.9c0-1.2 0-2.9-1.8-2.9s-2.1 1.4-2.1 2.8v5h-3.8v-11Z"/>
+            </svg>
+          </span>
+          <span class="social-name">LinkedIn</span>
+          <span class="social-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="social-link social-instagram" href="https://instagram.com/shayeqsalihe?xtok=M3hpZGZtMjdsN2c1&utm_source=qr" target="_blank"
+         rel="noopener noreferrer" aria-label="Instagram — stories and behind the scenes" data-name="Instagram" data-detail="Stories, ideas & behind the scenes">
+          <span class="social-tooltip">
+            <strong>Instagram</strong>
+            <small>Stories, ideas & behind the scenes</small>
+          </span>
+          <span class="social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <rect x="3.2" y="3.2" width="17.6" height="17.6" rx="5" fill="none" stroke="currentColor" stroke-width="2"/>
+              <circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/>
+              <circle cx="17.7" cy="6.5" r="1.2"/>
+            </svg>
+          </span>
+          <span class="social-name">Instagram</span>
+          <span class="social-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="social-link social-facebook" href="https://www.facebook.com/share/1BgUDqR5hK/?mibextid=wwXIfr" target="_blank"
+         rel="noopener noreferrer" aria-label="Facebook — news and community" data-name="Facebook" data-detail="Company news & community updates">
+          <span class="social-tooltip">
+            <strong>Facebook</strong>
+            <small>Company news & community updates</small>
+          </span>
+          <span class="social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M13.7 21v-8h2.7l.4-3.1h-3.1v-2c0-.9.3-1.5 1.6-1.5H17V3.6c-.3 0-1.3-.1-2.5-.1-2.5 0-4.2 1.5-4.2 4.3v2.1H7.5V13h2.8v8h3.4Z"/>
+            </svg>
+          </span>
+          <span class="social-name">Facebook</span>
+          <span class="social-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="social-link social-whatsapp" href="https://wa.me/message/HSII6YDR4BG5L1" target="_blank"
+         rel="noopener noreferrer" aria-label="WhatsApp — quick conversations" data-name="WhatsApp" data-detail="Quick conversations & direct contact">
+          <span class="social-tooltip">
+            <strong>WhatsApp</strong>
+            <small>Quick conversations & direct contact</small>
+          </span>
+          <span class="social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M20.2 3.8A11 11 0 0 0 2.9 17.1L1.5 22.5l5.5-1.4A11 11 0 0 0 20.2 3.8ZM12 20a8.9 8.9 0 0 1-4.5-1.2l-.3-.2-3.3.9.9-3.2-.2-.3A8.9 8.9 0 1 1 12 20Zm4.9-6.7c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.2-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.4.1-.6l.4-.5.3-.5c.1-.2 0-.4 0-.5l-.9-2.1c-.2-.5-.5-.4-.6-.4h-.5c-.2 0-.5.1-.7.4-.3.3-1 1-1 2.4s1 2.8 1.1 3c.1.2 2 3.1 4.8 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.6-.1 1.6-.7 1.8-1.3.2-.6.2-1.1.1-1.3-.1-.1-.3-.2-.6-.4Z"/>
+            </svg>
+          </span>
+          <span class="social-name">WhatsApp</span>
+          <span class="social-arrow" aria-hidden="true">↗</span>
+        </a>
+
+        <a class="social-link social-x" href="https://x.com/shaibsalihe?s=11" target="_blank"
+         rel="noopener noreferrer" aria-label="X — short updates and ideas" data-name="X" data-detail="Short updates, ideas & conversations">
+          <span class="social-tooltip">
+            <strong>X</strong>
+            <small>Short updates, ideas & conversations</small>
+          </span>
+          <span class="social-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24">
+              <path d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3L12 13.9 4.9 22H1.8l7.3-8.4L1.3 2h6.5l4.5 7.5L18.9 2Zm-1.1 17.8h1.7L6.8 4.1H5L17.8 19.8Z"/>
+            </svg>
+          </span>
+          <span class="social-name">X</span>
+          <span class="social-arrow" aria-hidden="true">↗</span>
+        </a>
+        
+      </div>
+      <p class="social-footnote">
+        Social links currently open each platform.
+         Replace them with Elevora’s official profile URLs before launch.
+        </p>
+    </section>
+  </section>
+
+  <!-- Section 4: Start small. Get clear. -->
+  <section class="section-space section-tint">
+    <div class="container content-feature-grid">
+      <div>
+        <p class="eyebrow">A straightforward first step</p>
+        <h2>Start small. 
+          <span class="gradient-text">Get clear.</span>
+        </h2>
+        <p class="section-intro">
+          You do not need a polished brief before reaching out.
+           A short description of the situation,
+            what you have tried and what a better outcome would look like is enough to begin.
+          </p>
+          <div class="process-steps">
+            <article>
+              <span>01</span>
+              <div>
+                <h3>
+                  Share the context
+                </h3>
+                <p>
+                  Tell us what is changing,what feels difficult and why it matters now.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <span>02</span>
+                <div>
+                  <h3>
+                    Explore the options
+                  </h3>
+                  <p>
+                    We can identify the key questions and the kind of support that may be useful.
+                  </p>
+                </div>
+              </article>
+              <article>
+                <span>03</span>
+                <div>
+                  <h3>Agree the next step</h3>
+                  <p>
+                    If there is a fit, we can discuss scope,
+                     timing and a clear proposal.
+                    </p>
+                  </div>
+                </article>
+             </div>
+           </div>
+         <img class="feature-illustration" src="assets/consulthing-elevora-img/first step.jpg" alt="Illustration inviting visitors to begin a consulting conversation" loading="lazy">
+       </div>
+    </section>
+</main>
+
+  <!-- Shared footer keeps navigation and brand details consistent across pages -->
+
+  <!-- Site footer: supporting links and copyright -->
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <a class="brand" href="index.html">
+          <img src="assets/logo/elevora-logo-wide.jpg" alt="" class="brand-mark">
+          <span class="brand-name">Elevora<span>Consulting</span>
+        </a>
+        <p>Clear thinking. Confident decisions. Meaningful progress.</p>
+      </div>
+      <div class="footer-links">
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="case-studies.html">Our work</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="insights.html">Insights</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <a class="back-top" href="#main">Back to top ↑</a>
+    </div>
+    <div class="container footer-bottom">
+      <span>
+        © 
+        <span id="current-year">
+        2026
+      </span>
+       Elevora Consulting
+      </span>
+      <span>
+        Strategy · Transformation · Growth
+      </span>
+      <a href="mailto:shayeqsalehi@gmail.com">📧 Email:shayeqsalehi@gmail.com</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
